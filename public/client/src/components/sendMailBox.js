@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './sendMailBox.less';
 import {connect} from 'react-redux';
+
+// this functions below are the Redux store action functions
 import {changeEmail, changeTitle, changeMessage, sentMessage, sendingMessage, verificationError} from '../actions/appActions';
 
 // This is the main component file of the app

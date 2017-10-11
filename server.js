@@ -1,6 +1,6 @@
 "use strict";
 /*
-  Basic Express server to server index.html in the build dir of the public/client dir
+  Basic Express server to serve index.html in the public/client dir
 */
 import express from 'express';
 import bodyParser from 'body-parser';
