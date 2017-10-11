@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "cd public/client && npm run build && cd ../.. && nodemon --exec babel-node server.js",
+    "initialise": "npm install && cd public/client && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris McCutcheon",
